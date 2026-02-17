@@ -4,7 +4,7 @@ Mahatma Brahmana/13524015
 
 # Puzzle Queen
 
-Program ini menyelesaikan puzzle penempatan **n queen** pada papan **n×n** berisi huruf/warna, dengan aturan:
+Program ini menyelesaikan puzzle penempatan n queen pada papan n×n berisi huruf/warna, dengan aturan:
 - Tepat 1 queen per baris (implisit dari representasi solusi).
 - Tidak boleh ada 2 queen di kolom yang sama.
 - Tidak boleh ada 2 queen di warna/huruf yang sama.
@@ -48,12 +48,12 @@ FFFFG
 5. Output akan diletakkan di folder result
    
 ## Cara Kompilasi : 
-1. Jalankan g++ -o bin/main src/main.cpp di Terminal
-2. Jalankan ./bin/main di Terminal
+1. Jalankan `g++ -o bin/main src/main.cpp` di Terminal
+2. Jalankan `./bin/main` di Terminal
 
 ## Cara Run :
 1. Masukkan file .txt ke folder test
-2. Jalankan ./bin/main di Terminal
+2. Jalankan `./bin/main` di Terminal
 3. Akan diminta nama file yang ingin dibuka, masukkan nama file sesuai keinginan
 4. Pilih metode penyelesaian
 5. Tunggu, proses komputasi sedang berlangsung
