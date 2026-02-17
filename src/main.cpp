@@ -184,7 +184,7 @@ void solutionOptimization(vector<vector<char>> array){
 
     auto finish = chrono::high_resolution_clock::now();
     auto duration = chrono::duration_cast<chrono::milliseconds>(finish - start).count();
-    cout << "Waktu eksekusi brute force: " << duration << " ms" << endl;
+    cout << "Waktu eksekusi backtracking: " << duration << " ms" << endl;
 
     char choice;
     cout << "Apakah ingin menyimpan hasil ke folder result? (y/n): ";
